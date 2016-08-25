@@ -65,7 +65,7 @@ public class JournalArticleAtomCollectionProvider
 
 		authors.add(journalArticle.getUserName());
 
-		return authors;
+		return authors
 	}
 
 	@Override
