@@ -35,7 +35,7 @@ public class ContentHits {
 		return _showListed;
 	}
 
-	public void recordHits(
+	public String recordHits(
 			Hits hits, long groupId, boolean privateLayout, int start, int end)
 		throws Exception {
 
