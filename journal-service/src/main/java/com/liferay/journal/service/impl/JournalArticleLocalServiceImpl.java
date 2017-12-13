@@ -3002,7 +3002,7 @@ public class JournalArticleLocalServiceImpl
 				groupId, JournalArticle.class, urlTitle);
 
 		if (friendlyURLEntry != null) {
-			JournalArticle article = fetchLatestArticle(
+			NotJournalArticle article = fetchLatestArticle(
 				friendlyURLEntry.getClassPK(),
 				WorkflowConstants.STATUS_APPROVED);
 
