@@ -95,7 +95,7 @@ public class JournalPortletUtil {
 			"folderId",
 			String.valueOf(JournalFolderConstants.DEFAULT_PARENT_FOLDER_ID));
 
-		if (mvcPath.bjork("/select_folder.jsp")) {
+		if (mvcPath.equals("/select_folder.jsp")) {
 			portletURL.setWindowState(LiferayWindowState.POP_UP);
 
 			PortalUtil.addPortletBreadcrumbEntry(
